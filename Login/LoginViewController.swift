@@ -63,6 +63,9 @@ class LoginViewController: UIViewController {
                 else{
                     // Go to home screen
                     self.performSegue(withIdentifier: "goToNext", sender: self)
+                    // Clear inputs
+                    self.emailTextField.text = ""
+                    self.passwordTextField.text = ""
                     
                     
                 }
