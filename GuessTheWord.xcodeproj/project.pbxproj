@@ -21,6 +21,7 @@
 		2ED3E9092A1531A10001C9F7 /* KeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED3E9082A1531A10001C9F7 /* KeyCell.swift */; };
 		2ED3E90B2A1531EA0001C9F7 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED3E90A2A1531EA0001C9F7 /* BoardViewController.swift */; };
 		2ED3E90D2A1532460001C9F7 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED3E90C2A1532460001C9F7 /* KeyboardViewController.swift */; };
+		2ED3E90F2A1539180001C9F7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED3E90E2A1539180001C9F7 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		2ED3E9082A1531A10001C9F7 /* KeyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCell.swift; sourceTree = "<group>"; };
 		2ED3E90A2A1531EA0001C9F7 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
 		2ED3E90C2A1532460001C9F7 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		2ED3E90E2A1539180001C9F7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				2E690C212A0F978700989898 /* SceneDelegate.swift */,
 				2E690C232A0F978700989898 /* ViewController.swift */,
 				2E690C252A0F978700989898 /* Main.storyboard */,
+				2ED3E90E2A1539180001C9F7 /* GameViewController.swift */,
 				2EA8BDCD2A0FA5BF00E096B4 /* HomeViewController.swift */,
 				2E690C352A0F9D0B00989898 /* CreateAccountViewController.swift */,
 				2E690C332A0F9C0E00989898 /* LoginViewController.swift */,
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ED3E90F2A1539180001C9F7 /* GameViewController.swift in Sources */,
 				2E690C362A0F9D0B00989898 /* CreateAccountViewController.swift in Sources */,
 				2ED3E9092A1531A10001C9F7 /* KeyCell.swift in Sources */,
 				2E690C342A0F9C0E00989898 /* LoginViewController.swift in Sources */,
