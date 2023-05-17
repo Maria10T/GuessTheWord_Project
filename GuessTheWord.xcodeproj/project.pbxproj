@@ -18,6 +18,9 @@
 		2E690C382A0F9E8C00989898 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E690C372A0F9E8C00989898 /* GoogleService-Info.plist */; };
 		2E690C3B2A0F9F2900989898 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2E690C3A2A0F9F2900989898 /* FirebaseAuth */; };
 		2EA8BDCE2A0FA5BF00E096B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8BDCD2A0FA5BF00E096B4 /* HomeViewController.swift */; };
+		2ED3E9092A1531A10001C9F7 /* KeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED3E9082A1531A10001C9F7 /* KeyCell.swift */; };
+		2ED3E90B2A1531EA0001C9F7 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED3E90A2A1531EA0001C9F7 /* BoardViewController.swift */; };
+		2ED3E90D2A1532460001C9F7 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED3E90C2A1532460001C9F7 /* KeyboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		2E690C352A0F9D0B00989898 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		2E690C372A0F9E8C00989898 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2EA8BDCD2A0FA5BF00E096B4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2ED3E9082A1531A10001C9F7 /* KeyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCell.swift; sourceTree = "<group>"; };
+		2ED3E90A2A1531EA0001C9F7 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		2ED3E90C2A1532460001C9F7 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				2E690C1F2A0F978700989898 /* AppDelegate.swift */,
+				2ED3E9082A1531A10001C9F7 /* KeyCell.swift */,
+				2ED3E90A2A1531EA0001C9F7 /* BoardViewController.swift */,
+				2ED3E90C2A1532460001C9F7 /* KeyboardViewController.swift */,
 				2E690C212A0F978700989898 /* SceneDelegate.swift */,
 				2E690C232A0F978700989898 /* ViewController.swift */,
 				2E690C252A0F978700989898 /* Main.storyboard */,
@@ -160,7 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E690C362A0F9D0B00989898 /* CreateAccountViewController.swift in Sources */,
+				2ED3E9092A1531A10001C9F7 /* KeyCell.swift in Sources */,
 				2E690C342A0F9C0E00989898 /* LoginViewController.swift in Sources */,
+				2ED3E90B2A1531EA0001C9F7 /* BoardViewController.swift in Sources */,
+				2ED3E90D2A1532460001C9F7 /* KeyboardViewController.swift in Sources */,
 				2E690C242A0F978700989898 /* ViewController.swift in Sources */,
 				2E690C202A0F978700989898 /* AppDelegate.swift in Sources */,
 				2E690C222A0F978700989898 /* SceneDelegate.swift in Sources */,
