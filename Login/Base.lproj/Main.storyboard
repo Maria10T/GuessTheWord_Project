@@ -266,7 +266,7 @@
                             <constraint firstItem="kZF-0S-gdB" firstAttribute="leading" secondItem="jBf-SE-P0F" secondAttribute="leading" constant="42" id="xly-5U-PmM"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Back" largeTitleDisplayMode="never" id="fsL-xl-6sg" userLabel="Title"/>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="fsL-xl-6sg" userLabel="Title"/>
                     <connections>
                         <outlet property="view" destination="4pf-o7-M1b" id="EJC-zh-6tn"/>
                     </connections>
@@ -406,7 +406,7 @@
                         <viewLayoutGuide key="safeArea" id="OOz-J9-V59"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Back" largeTitleDisplayMode="never" id="YHv-pu-3fO" userLabel="Title"/>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="YHv-pu-3fO" userLabel="Title"/>
                     <connections>
                         <outlet property="view" destination="eNi-t8-Mlp" id="OWV-4e-wQE"/>
                     </connections>
@@ -417,7 +417,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8jj-mS-i7I"/>
+        <segue reference="koR-42-QNI"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_7497" width="640" height="1136"/>
