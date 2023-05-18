@@ -4,7 +4,7 @@ import UIKit
 class GameViewController: UIViewController {
 
     let answers = [
-        "later", "bloke", "there", "ultra"
+        "later", "there", "ultra", "aboard","abroad", "accent", "accept", "bottle","bottom"
     ]
 
     var answer = ""
