@@ -4,13 +4,13 @@ import UIKit
 class GameViewController: UIViewController {
 
     let answers = [
-        "later", "there", "ultra", "aboard","abroad", "accent", "accept", "bottle","bottom"
+        "cerb", "span", "basm"
     ]
 
     var answer = ""
     private var guesses: [[Character?]] = Array(
-        repeating: Array(repeating: nil, count: 5),
-        count: 6
+        repeating: Array(repeating: nil, count: 4),
+        count: 4
     )
 
     let keyboardVC = KeyboardViewController()
@@ -19,7 +19,7 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        answer = answers.randomElement() ?? "after"
+        answer = answers.randomElement() ?? "cerb"
         view.backgroundColor = .black
         addChildren()
        
@@ -91,7 +91,7 @@ extension GameViewController: BoardViewControllerDatasource {
         let rowIndex = indexPath.section
 
         let count = guesses[rowIndex].compactMap({ $0 }).count
-        guard count == 5 else {
+        guard count == 4 else {
             return nil
         }
 

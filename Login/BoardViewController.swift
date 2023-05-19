@@ -53,7 +53,7 @@ extension BoardViewController {
         }
 
         cell.backgroundColor = datasource?.boxColor(at: indexPath)
-        cell.layer.borderWidth = 1
+        cell.layer.borderWidth = 2
         cell.layer.borderColor = UIColor.systemGray3.cgColor
 
         let guesses = datasource?.currentGuesses ?? []
@@ -66,8 +66,8 @@ extension BoardViewController {
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
 
-        let margin: CGFloat = 20
-        let size: CGFloat = (collectionView.frame.size.width-margin)/5
+        let margin: CGFloat = 16
+        let size: CGFloat = (collectionView.frame.size.width-margin)/4
 
         return CGSize(width: size, height: size)
     }
