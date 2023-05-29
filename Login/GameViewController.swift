@@ -65,14 +65,22 @@ extension GameViewController: KeyboardViewControllerDelegate {
         var stop = false
 
         for i in 0..<guesses.count {
+            var allSpacesOccupied = true
             for j in 0..<guesses[i].count {
                 if guesses[i][j] == nil {
                     guesses[i][j] = letter
                     stop = true
+                    allSpacesOccupied = false
                     break
                 }
             }
-
+            
+            if allSpacesOccupied {
+                let alertController = UIAlertController(title: "Ai completat randul \(i+1)", message: "Toate spatiile sunt ocupate.", preferredStyle: .alert)
+                alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                present(alertController, animated: true, completion: nil)
+                                }
+            
             if stop {
                 break
             }
